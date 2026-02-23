@@ -146,7 +146,8 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(to bottom, rgba(28, 25, 23, 0.5) 0%, rgba(28, 25, 23, 0.8) 100%);
+            background: rgba(28, 25, 23, 0.25);
+            /* Lighter global overlay, since glass handles the contrast */
         }
 
         #ghl-custom-wrapper .hero-img-wrap img {
@@ -173,14 +174,21 @@
         #ghl-custom-wrapper .hero-content {
             position: relative;
             z-index: 2;
-            max-width: 800px;
+            max-width: 850px;
             color: var(--clr-bone);
             margin: 0 auto;
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+            /* Premium Glassmorphism */
+            background: rgba(28, 25, 23, 0.55);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: clamp(2.5rem, 5vw, 4.5rem);
+            border: 1px solid rgba(230, 213, 195, 0.15);
+            border-radius: 6px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
 
         #ghl-custom-wrapper .hero-content h1 {
@@ -1292,21 +1300,7 @@
                         <a href="#anfragen" class="btn-safari">Kostenlose Offerte anfragen</a>
                     </div>
 
-                    <!-- Trust signals -->
-                    <div class="hero-stats">
-                        <div class="hero-stat">
-                            <span class="hero-stat-num">15+</span>
-                            <span class="hero-stat-label">Jahre Erfahrung</span>
-                        </div>
-                        <div class="hero-stat">
-                            <span class="hero-stat-num">500+</span>
-                            <span class="hero-stat-label">Reisen geplant</span>
-                        </div>
-                        <div class="hero-stat">
-                            <span class="hero-stat-num">100%</span>
-                            <span class="hero-stat-label">Massgeschneidert</span>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
