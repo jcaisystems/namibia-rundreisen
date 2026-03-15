@@ -4,9 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namibia Rundreisen â€“ Massgeschneiderte Safaris aus der Schweiz</title>
+    <title>Namibia Rundreisen - Massgeschneiderte Safaris aus der Schweiz</title>
     <meta name="description"
-        content="Self-Drive Safaris, gefÃ¼hrte Touren und exklusive Lodges â€“ perfekt geplant von Schweizer Namibia-Experten mit Ã¼ber 15 Jahren Erfahrung vor Ort.">
+        content="Self-Drive Safaris, geführte Touren und exklusive Lodges – perfekt geplant von Schweizer Namibia-Experten mit über 15 Jahren Erfahrung vor Ort.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://namibia-rundreisen.ch/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://namibia-rundreisen.ch/">
+    <meta property="og:title" content="Namibia Rundreisen - Massgeschneiderte Safaris aus der Schweiz">
+    <meta property="og:description" content="Self-Drive Safaris, geführte Touren und exklusive Lodges – perfekt geplant von Schweizer Namibia-Experten.">
+    <meta property="og:image" content="https://namibia-rundreisen.ch/images/hero.jpeg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://namibia-rundreisen.ch/">
+    <meta name="twitter:title" content="Namibia Rundreisen - Massgeschneiderte Safaris aus der Schweiz">
+    <meta name="twitter:description" content="Self-Drive Safaris, geführte Touren und exklusive Lodges – perfekt geplant von Schweizer Namibia-Experten.">
+    <meta name="twitter:image" content="https://namibia-rundreisen.ch/images/hero.jpeg">
+
     <link rel="icon" type="image/x-icon" href="favicon-32x32.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -1483,7 +1501,121 @@
                 animation-duration: 35s;
             }
         }
+
+        /* ─── FOOTER ────────────────────────────────────────── */
+        #ghl-custom-wrapper .nrc-footer {
+            background-color: var(--clr-night);
+            color: var(--clr-sand);
+            padding: 80px 0 40px;
+            border-top: 1px solid rgba(230, 213, 195, 0.1);
+        }
+
+        #ghl-custom-wrapper .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        #ghl-custom-wrapper .footer-info h3 {
+            color: var(--clr-bone);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        #ghl-custom-wrapper .footer-info p {
+            max-width: 500px;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        #ghl-custom-wrapper .footer-links h4 {
+            color: var(--clr-bone);
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        #ghl-custom-wrapper .footer-links p {
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        #ghl-custom-wrapper .footer-links a:hover {
+            color: var(--clr-sun);
+        }
+
+        #ghl-custom-wrapper .footer-bottom {
+            padding-top: 40px;
+            border-top: 1px solid rgba(230, 213, 195, 0.05);
+            text-align: center;
+            font-size: 0.85rem;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 768px) {
+            #ghl-custom-wrapper .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+            #ghl-custom-wrapper .footer-info p {
+                margin: 0 auto;
+            }
+        }
     </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Namibia Rundreisen",
+      "image": "https://namibia-rundreisen.ch/images/hero.jpeg",
+      "url": "https://namibia-rundreisen.ch/",
+      "telephone": "+41 00 000 00 00",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Zürich",
+        "addressCountry": "CH"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.3769,
+        "longitude": 8.5417
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/namibiarundreisen",
+        "https://www.instagram.com/namibiarundreisen"
+      ],
+      "email": "mariowlotzka@gmail.com",
+      "priceRange": "CHF 2000 - CHF 10000"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://namibia-rundreisen.ch/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://namibia-rundreisen.ch/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -1528,30 +1660,31 @@
             </div>
         </header>
 
-        <!-- ══ FILM STRIP / PHOTO PARADE ══════════════════════════ -->
+        <main>
+            <!-- ══ FILM STRIP / PHOTO PARADE ══════════════════════════ -->
         <div class="nrc-film-strip">
             <div class="film-track">
-                <img src="images/img-01.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-02.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-05.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-06.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-07.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-08.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-09.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-17.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-18.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-19.jpeg" alt="Namibia Impressionen">
+                <img src="images/img-01.jpeg" alt="Namibia Campingsetup unter Akazienbäumen">
+                <img src="images/img-02.jpeg" alt="Endlose Schotterpisten in der Namib-Wüste">
+                <img src="images/img-05.jpeg" alt="Wildbeobachtung am Wasserloch in Namibia">
+                <img src="images/img-06.jpeg" alt="Traditionelle Lodge-Architektur in der Wüste">
+                <img src="images/img-07.jpeg" alt="Morgenstimmung in der Savanne">
+                <img src="images/img-08.jpeg" alt="Elefantenherde bei der Wanderung">
+                <img src="images/img-09.jpeg" alt="Sonnenuntergang über der Skelettküste">
+                <img src="images/img-17.jpeg" alt="Allradfahrzeug auf Entdeckungstour">
+                <img src="images/img-18.jpeg" alt="Wüstenelefant in der Trockenlandschaft">
+                <img src="images/img-19.jpeg" alt="Sternenklare Nacht über einer Safari-Lodge">
                 <!-- Duplicate for seamless loop -->
-                <img src="images/img-01.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-02.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-05.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-06.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-07.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-08.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-09.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-17.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-18.jpeg" alt="Namibia Impressionen">
-                <img src="images/img-19.jpeg" alt="Namibia Impressionen">
+                <img src="images/img-01.jpeg" alt="Namibia Campingsetup unter Akazienbäumen">
+                <img src="images/img-02.jpeg" alt="Endlose Schotterpisten in der Namib-Wüste">
+                <img src="images/img-05.jpeg" alt="Wildbeobachtung am Wasserloch in Namibia">
+                <img src="images/img-06.jpeg" alt="Traditionelle Lodge-Architektur in der Wüste">
+                <img src="images/img-07.jpeg" alt="Morgenstimmung in der Savanne">
+                <img src="images/img-08.jpeg" alt="Elefantenherde bei der Wanderung">
+                <img src="images/img-09.jpeg" alt="Sonnenuntergang über der Skelettküste">
+                <img src="images/img-17.jpeg" alt="Allradfahrzeug auf Entdeckungstour">
+                <img src="images/img-18.jpeg" alt="Wüstenelefant in der Trockenlandschaft">
+                <img src="images/img-19.jpeg" alt="Sternenklare Nacht über einer Safari-Lodge">
             </div>
         </div>
 
@@ -1636,7 +1769,7 @@
         <section class="nrc-mosaic">
             <div class="nrc-container">
                 <div class="mosaic-header">
-                    <span>Die Route</span>
+                    <p class="mosaic-eyebrow">Die Route</p>
                     <h2>Namibias unvergessliche Momente</h2>
                 </div>
             </div>
@@ -1747,7 +1880,7 @@
         <section class="nrc-essentials">
             <div class="nrc-container">
                 <div class="essentials-header">
-                    <span>Warum mit uns?</span>
+                    <p class="essentials-eyebrow">Warum mit uns?</p>
                     <h2>Schweizer Qualitätsanspruch im Herzen Afrikas</h2>
                 </div>
                 <div class="essentials-grid">
@@ -1819,25 +1952,25 @@
                             class="fa-solid fa-chevron-left"></i></button>
                     <div class="carousel-container" id="lodgeCarousel">
                         <div class="carousel-item" onclick="openLightbox('images/img-22.jpeg')">
-                            <img src="images/img-22.jpeg" alt="Namibia Natur 1">
+                            <img src="images/img-22.jpeg" alt="Weite Landschaft der Namib bei Sonnenuntergang">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-21.jpeg')">
-                            <img src="images/img-21.jpeg" alt="Namibia Natur 2">
+                            <img src="images/img-21.jpeg" alt="Safari Lodge mit Ausblick auf die Dünen">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-24.jpeg')">
-                            <img src="images/img-24.jpeg" alt="Namibia Natur 3">
+                            <img src="images/img-24.jpeg" alt="Oryx Antilopen in der Wüste">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-25.jpeg')">
-                            <img src="images/img-25.jpeg" alt="Namibia Natur 4">
+                            <img src="images/img-25.jpeg" alt="Deadvlei - abgestorbene Akazien vor roten Dünen">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-26.jpeg')">
-                            <img src="images/img-26.jpeg" alt="Namibia Natur 5">
+                            <img src="images/img-26.jpeg" alt="Gepard in der Savanne Namibias">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-27.jpeg')">
-                            <img src="images/img-27.jpeg" alt="Namibia Natur 6">
+                            <img src="images/img-27.jpeg" alt="Heissluftballonfahrt über dem Sossusvlei">
                         </div>
                         <div class="carousel-item" onclick="openLightbox('images/img-28.jpeg')">
-                            <img src="images/img-28.jpeg" alt="Namibia Natur 7">
+                            <img src="images/img-28.jpeg" alt="Traditionelles Dorf der Himba">
                         </div>
                     </div>
                     <button class="carousel-btn next" onclick="scrollCarousel(1)"><i
@@ -1951,25 +2084,44 @@
         <!-- ══ CLOSING STRIP ══════════════════════════════════════ -->
         <div class="nrc-film-strip">
             <div class="film-track">
-                <img src="images/img-30.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-31.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-29.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-28.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-27.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-26.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-25.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-24.jpeg" alt="Namibia Abschluss">
+                <img src="images/img-30.jpeg" alt="Namibia Urlaub - Entspannung am Pool der Lodge">
+                <img src="images/img-31.jpeg" alt="Blick in den weiten Sternenhimmel Namibias">
+                <img src="images/img-29.jpeg" alt="Morgengrauen über den Dünen">
+                <img src="images/img-28.jpeg" alt="Porträt eines Himba-Kindes">
+                <img src="images/img-27.jpeg" alt="Sossusvlei aus der Vogelperspektive">
+                <img src="images/img-26.jpeg" alt="Raubkatze auf der Jagd">
+                <img src="images/img-25.jpeg" alt="Die berühmten Pfannen von Deadvlei">
+                <img src="images/img-24.jpeg" alt="Oryx Gazellen am Horizont">
                 <!-- Duplicate for seamless loop -->
-                <img src="images/img-30.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-31.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-29.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-28.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-27.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-26.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-25.jpeg" alt="Namibia Abschluss">
-                <img src="images/img-24.jpeg" alt="Namibia Abschluss">
+                <img src="images/img-30.jpeg" alt="Namibia Urlaub - Entspannung am Pool der Lodge">
+                <img src="images/img-31.jpeg" alt="Blick in den weiten Sternenhimmel Namibias">
+                <img src="images/img-29.jpeg" alt="Morgengrauen über den Dünen">
+                <img src="images/img-28.jpeg" alt="Porträt eines Himba-Kindes">
+                <img src="images/img-27.jpeg" alt="Sossusvlei aus der Vogelperspektive">
+                <img src="images/img-26.jpeg" alt="Raubkatze auf der Jagd">
+                <img src="images/img-25.jpeg" alt="Die berühmten Pfannen von Deadvlei">
+                <img src="images/img-24.jpeg" alt="Oryx Gazellen am Horizont">
             </div>
-        </div>
+        </main>
+
+        <footer class="nrc-footer">
+            <div class="nrc-container">
+                <div class="footer-grid">
+                    <div class="footer-info">
+                        <h3>Namibia Rundreisen</h3>
+                        <p>Ihre Experten für massgeschneiderte Safaris und Self-Drive Abenteuer in Namibia. Seit über 15 Jahren planen wir unvergessliche Reisen aus der Schweiz und direkt vor Ort.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Kontakt</h4>
+                        <p>E-Mail: <a href="mailto:mariowlotzka@gmail.com">mariowlotzka@gmail.com</a></p>
+                        <p>Web: <a href="https://namibia-rundreisen.ch">namibia-rundreisen.ch</a></p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Namibia Rundreisen. Alle Rechte vorbehalten.</p>
+                </div>
+            </div>
+        </footer>
 
     </div>
     <script>
